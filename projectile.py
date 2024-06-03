@@ -10,4 +10,4 @@ class Projectile:
 
     def draw(self, wheredraw):
         pygame.draw.circle(wheredraw, self.color, (self.xpos, self.ypos), self.radius)
-
+ 
